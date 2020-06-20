@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap');
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-image: linear-gradient(to right, #C04848, #480048);
+    background-repeat: no-repeat;
+    height: 131vh;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 120rem;
+    margin: 0 auto;
+    position: relative;
+}
+
+::selection {
+    background-color: #dddddd
+}
+
+#title {
+    text-align: center;
+    font-size: 6rem;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: .3rem;
+    font-weight: 100;
+    color: #fff;
+    padding-top: 5rem;
+    margin-bottom: 5rem;
+    text-transform: uppercase;
+    position: relative;
+
+
+}
+
+#title::after {
+    position: absolute;
+    width: 15rem;
+    height: .2rem;
+    content: ' ';
+    left: 50%;
+    right: 0;
+    background-color: #fff;
+    top: 109%;
+    transform: translate(-50%);
+
+}
+
+
+svg {
+    background-color: #ddd;
+}
+
+
+.graph {
+    display: block;
+    margin: auto;
+}
+
+.tooltip {
+    position: absolute;
+    font-size: 1.3rem;
+    background: #fff ;
+    border: 0px;
+    border-radius: 8px;
+    pointer-events: none;
+    opacity: .9;
+    padding: 1rem 2rem;
+    z-index: 5;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.2);
+    display: none;
+    color: #fff;
+    text-align: center;
+}
+
+.tooltip.show {
+    display: block;
+}
+
+.tooltip p {
+    margin: .5rem;
+    font-size: 1.5rem;
+}
+
+.tooltip small {
+    display: inline-block;
+    margin-top: 1rem;
+}
+h3 {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 5rem;
+    font-size: 2rem;
+    font-weight: 300;
+
+}
+
+.legend {
+   transform: translate(235%,5%);
+  
+}

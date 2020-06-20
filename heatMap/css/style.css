@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap');
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-image: linear-gradient(to right, #e52d27, #b31217);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 120rem;
+    margin: 0 auto;
+    position: relative;
+}
+
+::selection {
+    background-color: #dddddd
+}
+
+#title {
+    text-align: center;
+    font-size: 6rem;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: .3rem;
+    font-weight: 100;
+    color: #fff;
+    padding-top: 5rem;
+    margin-bottom: 3rem;
+    text-transform: uppercase;
+    position: relative;
+    text-shadow: .2rem .2rem .9rem rgba(0, 0, 0, .7);
+}
+
+#title::after {
+    position: absolute;
+    width: 15rem;
+    height: .2rem;
+    content: ' ';
+    left: 50%;
+    right: 0;
+    background-color: #fff;
+    top: 109%;
+    transform: translate(-50%);
+
+}
+
+.graph {
+    display: block;
+    margin: auto;
+    background-color: #ddd;
+    border-radius: 1rem;
+}
+
+.dot {
+    opacity: 1;
+}
+
+.axis {
+    fill: none;
+    stroke: #3a3a3a;
+}
+
+.axis text {
+    fill: #000;
+    stroke: none;
+}
+
+.tooltip {
+    position: absolute;
+    font-size: 1.3rem;
+    background: #b31217;
+    border: 0px;
+    border-radius: 8px;
+    pointer-events: none;
+    opacity: .9;
+    padding: 1.5rem 3rem;
+    z-index: 100;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.2);
+    display: none;
+    color: #fff;
+
+}
+
+.tooltip.show {
+    display: block;
+}
+
+.tooltip p {
+    margin: .5rem;
+    font-size: 1.5rem;
+}
+
+.tooltip small {
+    display: inline-block;
+    margin-top: 1rem;
+}
+
+#temp {
+    color: #fff;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 300;
+    text-shadow: .2rem .2rem .9rem rgba(0, 0, 0, .2);
+}
+
+#temp2 {
+    color: #fff;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 300;
+    margin-bottom: 10rem;
+    text-shadow: .2rem .2rem .9rem rgba(0, 0, 0, .2);
+
+}
+
+rect:hover {
+    cursor: pointer;
+    stroke: black;
+}
+
+.legend {
+ text-align: center;
+ margin: auto;
+ position: absolute;
+ left: 50%;
+ margin-top: 1rem;
+ transform: translate(-50%);
+}
