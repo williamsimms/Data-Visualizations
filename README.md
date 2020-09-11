@@ -9,23 +9,27 @@
 
 ![image](https://github.com/williamsimms/dataVisualizations/blob/master/readme/BarGraph.png?raw=true)
 
+![image](https://github.com/williamsimms/dataVisualizations/blob/master/readme/BarGraphGif.gif?raw=true)
+
 ### Heat Map
 
 [Heat Map](https://heatgraph.netlify.app/)
 
 ![image](https://github.com/williamsimms/dataVisualizations/blob/master/readme/Heat%20Map.png?raw=true)
 
+![image](https://github.com/williamsimms/dataVisualizations/blob/master/readme/HeatMapGif.gif?raw=true)
+
 ### Chloropleth Map
 
 [Chloropleth](https://chloropleth.netlify.app)
 
-![image](https://github.com/williamsimms/dataVisualizations/blob/master/readme/Chloropleth.png?raw=true)
+![image](https://github.com/williamsimms/dataVisualizations/blob/master/readme/ChloroplethGif.gif?raw=true)
 
 ### Scatterplot
 
 [Scatterplot](https://scatterplotgraph.netlify.app)
 
-![image](https://github.com/williamsimms/dataVisualizations/blob/master/readme/ScatterPlot.png?raw=true)
+![image](https://github.com/williamsimms/dataVisualizations/blob/master/readme/ScatterplotGif.gif?raw=true)
 
 ### Tree Map
 
