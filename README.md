@@ -1,5 +1,5 @@
-# dataVisualizations
-Data Visualizations with Data Driven Documents (D3.js)
+# Data Visualizations
+### Data Visualizations with Data Driven Documents (D3.js). These projects were made with D3.js.
 
 # Data Visualisations
 
