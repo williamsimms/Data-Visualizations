@@ -5,18 +5,20 @@ Data Visualizations with Data Driven Documents (D3.js)
 
 ### Bar Graph
 
-![image]()
+![image](https://github.com/williamsimms/dataVisualizations/blob/master/readme/BarGraph.png?raw=true)
 
 ### Heat Map
 
-![image]()
+![image](https://github.com/williamsimms/dataVisualizations/blob/master/readme/Heat%20Map.png?raw=true)
 
 ### Chloropleth Map
 
-![image]()
+![image](https://github.com/williamsimms/dataVisualizations/blob/master/readme/Chloropleth.png?raw=true)
 
 ### Scatterplot
 
+![image](https://github.com/williamsimms/dataVisualizations/blob/master/readme/ScatterPlot.png?raw=true)
+
 ### Tree Map
 
-![image]()
+![image](https://github.com/williamsimms/dataVisualizations/blob/master/readme/TreeMap.png?raw=true)
