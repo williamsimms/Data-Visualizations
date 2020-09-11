@@ -9,6 +9,8 @@
 
 ![image](https://github.com/williamsimms/dataVisualizations/blob/master/readme/BarGraph.png?raw=true)
 
+### Tour of Bar Graph
+
 ![image](https://github.com/williamsimms/dataVisualizations/blob/master/readme/BarGraphGif.gif?raw=true)
 
 ### Heat Map
@@ -17,17 +19,29 @@
 
 ![image](https://github.com/williamsimms/dataVisualizations/blob/master/readme/Heat%20Map.png?raw=true)
 
+### Tour of Heat Map
+
 ![image](https://github.com/williamsimms/dataVisualizations/blob/master/readme/HeatMapGif.gif?raw=true)
 
 ### Chloropleth Map
 
 [Chloropleth](https://chloropleth.netlify.app)
 
+![image](https://github.com/williamsimms/dataVisualizations/blob/master/readme/Chloropleth.png?raw=true)
+
+### Tour of Chloropleth Map
+
 ![image](https://github.com/williamsimms/dataVisualizations/blob/master/readme/ChloroplethGif.gif?raw=true)
 
 ### Scatterplot
 
 [Scatterplot](https://scatterplotgraph.netlify.app)
+
+![image](https://github.com/williamsimms/dataVisualizations/blob/master/readme/ScatterplotGif.gif?raw=true)
+
+### Tour of Scatterplot
+
+![iimage](https://github.com/williamsimms/dataVisualizations/blob/master/readme/ScatterPlot.png?raw=true)
 
 ![image](https://github.com/williamsimms/dataVisualizations/blob/master/readme/ScatterplotGif.gif?raw=true)
 
